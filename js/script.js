@@ -19,7 +19,7 @@ function showPage(list, page) {
 			let html = "";
 			html += `<li class= 'student-item cf'>
 				<div class='student-details'>
-					<img class='avatar' src=${studentItem.picture["thumbnail"]}>
+					<img class='avatar' src=${studentItem.picture["large"]}>
 					<h3>${studentItem.name["first"]} ${studentItem.name["last"]}</h3>
 					<span class='email'>${studentItem.email}</span>
 				</div>
